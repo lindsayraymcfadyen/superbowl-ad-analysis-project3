@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+    color: black;
+}
+.header {
+    text-align: center;
+    overflow: hidden;
+    background-color: #FFF; /* Background color for contrast */
+}
+.header img {
+    width: 100%;
+    max-height: 1000px; /* Adjusted for consistent sizing */
+    object-fit: cover;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.ad-analysis, .brands-over-time, .views-by-year, .view-like-ratio, .interactive-ads {
+    background-color: #FFF;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid #013369; /* Bright accent color */
+    border-radius: 8px; /* Rounded corners */
+    width: 100%; /* Adjust width as needed */
+    max-width: 900px; /* Maximum width, corrected typo from 9000xpx to 900px */
+}
+.ad-analysis:nth-child(even), .brands-over-time:nth-child(even) {
+    background-color: #FFF;
+}
+h2 {
+    color: #013369; /* Bright accent color */
+    margin: 0 0 20px 0;
+}
+p {
+    margin: 0 0 10px 0;
+    line-height: 1.6;
+}
+.footer {
+    background-color: #D50A0A;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.iframe-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+iframe, .sunburst-chart-iframe, .stacked-bar-graph, .plot1, .plot2, .interactiveads {
+    border: 3px solid #D50A0A; /* Bright accent border */
+    border-radius: 8px; /* Rounded corners for iframes */
+    margin-bottom: 20px; /* Consistent spacing */
+}
+.sunburst-chart-iframe, .stacked-bar-graph, .plot1, .plot2, .interactiveads {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto; /* Centering the iframe */
+}
+@media (max-width: 768px) {
+    .iframe-row iframe {
+        width: calc(100% - 40px);
+        height: 400px;
+    }
+}
