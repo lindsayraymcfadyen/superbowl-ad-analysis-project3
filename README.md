@@ -1,4 +1,5 @@
 # superbowl-ad-analysis-project3
+![plot](/Graphs/PNG Graphs/ad_characteristic_graph.png)
 
 By: Jessica Mroczek, Matthew Sturt, Maia Sepiashevill, and Lindsay McFadyen
 
