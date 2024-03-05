@@ -41,6 +41,7 @@ In the figure,  all videos with 10,000 are shown as data points on a scatter plo
 
 How have Super Bowl Ad Youtube views changed over time for each brand?
 
+![image](https://github.com/lindsayraymcfadyen/superbowl-ad-analysis-project3/assets/148826786/1f4d2051-12ba-4573-85e1-45756bcf9d91)
 
 
 To analyze the change of Super Bowl YouTube views over time for each brand, the view counts for each Super Bowl advertisement were gathered and depicted on bar graphs. Illustrating the year-to-year change in YouTube views offers insights into the performance of a brand's advertisement relative to previous years.  For instance, as illustrated  in the second figure, Kia's 2019 Super Bowl advertisement received the lowest number of YouTube views, whereas Kia's 2017 advertisement received the highest view count. This comparison could allow Kia's marketers to analyze the characteristics of these advertisements to inform their decisions for future Super Bowl ads. 
