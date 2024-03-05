@@ -22,6 +22,7 @@ In our analysis of Super Bowl advertising trends, we specifically highlight the 
 
 How does industry frequency in Super Bowl ads change over time? 
 
+![image](https://github.com/lindsayraymcfadyen/superbowl-ad-analysis-project3/assets/148826786/a69d85ac-7e58-4adc-a19c-3cc1bf15c2ee)
 
 
 In figure 2, the brands have been categorized into four categories: Investment, Food & Beverage, Automobile, and Alcohol. In our dataset, we had a total of 9 brands that provided goods or services. Three brands within the Food & Beverage category (Doritos, Pepsi, Coca-Cola), one within the Investment category(E-Trade), three brands within the automobile category (Toyota, Kia, Chevrolet), and two brands within the Alcohol category (Bud Light, Budweiser). Brands advertising in the category of Alcohol are present in every year of the dataset with Food & Beverage being present in all years except for the the initial year of 2000. Interestingly, the dataset that we used clearly had a lack of data within 2017 where only two advertisements were collected. Further assessment shows that the categories of Food and Beverage, and Alcohol clearly take up the majority of advertisement time and space within the data analyzed from 2000 to 2020. This alludes to the fact that during the Super Bowl, brands are trying to appeal to human consumption of commissary goods. This aspect of the Super Bowl is well documented and expressed within American cultural ideas.
