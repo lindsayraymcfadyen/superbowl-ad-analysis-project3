@@ -5,19 +5,18 @@ By: Jessica Mroczek, Matthew Sturt, Maia Sepiashevill, and Lindsay McFadyen
 Overview: 
 The dataset youtube is created by FiveThirtyEight with an original source of the video data from superbowl-ads.com. The youtube.csv contains a list of 10 brands that had the most advertisements in Super Bowls from 2000 - 2020 according to superbowl-ads.com. FiveThirtyEight added the seven defining characteristics of Super Bowl ads. Numeric variables utilized were views and number of likes. The CSV had a total of 248 unique records. Following the analysis and visualization of this data, the visualizations were then added to an html local site to allow for showcasing and interacting with the data. 
 
-Ethical Considerations
+Ethical Considerations:
 Since the dataset includes data from YouTube, it's essential to ensure that all data used complies with the platform's terms of service and respects the privacy of content creators and viewers. This includes ensuring that any personal data is appropriately anonymized and that the use of the data does not infringe on any copyright or personal rights.
 
-Coding approach
+Coding approach:
 As a team we approached the coding and visualization of our code in several different ways. We used HTML, CSS Stylings, PlotlyExpress, Python, Pandas, and Jupyter Notebook. Other libraries utilized are Matplotlib, Plotly, and Numpy. 
 
-Data wrangling techniques
+Data wrangling techniques:
 We utilized excel to manually add/remove data that was either incomplete, or irrelevant to our analysis. There were a total of four rows that needed to be removed as the youtube video or video source was no longer available. 
 
 Using the dataset, we ask the following questions: 
 
 What are the defining characteristics of Super Bowl ads in the last 20 years?
-
 
 In our analysis of Super Bowl advertising trends, we specifically highlight the defining characteristics of each advertisement from 2000-2020 in Figure 1. Among these, comedy and direct product showcases are the primary strategies employed by brands to engage viewers, likely reflecting an understanding of the event's light-hearted and diverse viewership demographic. Notably, Bud Light distinguishes itself through its significant use of comedic elements, effectively marrying its brand identity with its advertising approach to ensure memorability and viewer engagement. On the other hand, patriotism ranks as the least favored theme among the ads we analyzed. This could be attributed to its potential to narrow audience appeal, the risk of exacerbating current socio-political tensions, and the need to resonate with an increasingly international audience. These insights suggest a strategic shift by brands towards more universally appealing themes that prioritize entertainment and inclusivity over nationalistic sentiments, demonstrating our nuanced adaptation to the changing dynamics of Super Bowl viewership.
 
@@ -37,8 +36,6 @@ In the figure,  all videos with 10,000 are shown as data points on a scatter plo
 
 How have Super Bowl Ad Youtube views changed over time for each brand?
 To analyze the change of Super Bowl YouTube views over time for each brand, the view counts for each Super Bowl advertisement were gathered and depicted on bar graphs. Illustrating the year-to-year change in YouTube views offers insights into the performance of a brand's advertisement relative to previous years.  For instance, as illustrated  in the second figure, Kia's 2019 Super Bowl advertisement received the lowest number of YouTube views, whereas Kia's 2017 advertisement received the highest view count. This comparison could allow Kia's marketers to analyze the characteristics of these advertisements to inform their decisions for future Super Bowl ads. 
-
-
 
 Limitations: The dataset we utilized lacked all advertisement data for all the years analyzed. This is clearly shown within our brand types over time chart that shows only 2 ads recorded for 2017 which clearly is not accurate. Although our dataset may not be able to give us a complete reflection of the advertisements within this time period, it does allow for us to gain insight into trends of these two decades. Another consideration that must be made for our dataset is in relation to the analysis of likes and views. Many of the videos within the dataset were uploaded at different times, and by various “unofficial” hosts. This could cause the data to be inconsistent depending on where/when the video and its respected data were collected. 
 
